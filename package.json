@@ -8,20 +8,20 @@
     "android-windows": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && react-native run-android"
   },
   "dependencies": {
-    "eslint": "^5.11.0",
+    "eslint": "^6.3.0",
     "handlebars": "^4.1.2",
-    "react": "16.6.3",
-    "react-native": "0.57.8",
-    "react-native-popup-dialog": "^0.16.6",
+    "react": "16.9.0",
+    "react-native": "0.60.5",
+    "react-native-popup-dialog": "^0.18.3",
     "react-native-swipeout": "^2.3.6",
-    "react-navigation": "^3.0.9",
-    "realm": "^2.21.1"
+    "react-navigation": "^4.0.0",
+    "realm": "^2.29.2"
   },
   "devDependencies": {
-    "babel-jest": "23.6.0",
-    "jest": "23.6.0",
-    "metro-react-native-babel-preset": "0.51.1",
-    "react-test-renderer": "16.6.3"
+    "babel-jest": "24.9.0",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.56.0",
+    "react-test-renderer": "16.9.0"
   },
   "jest": {
     "preset": "react-native"
